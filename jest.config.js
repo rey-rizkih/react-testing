@@ -8,21 +8,7 @@ const createJestConfig = nextJest({
   dir: "./",
 });
 
-const exclusions = [
-  "<rootDir>/src/constants",
-  "<rootDir>/src/pages",
-  "<rootDir>/src/styles",
-  "<rootDir>/src/services/index.ts",
-  "<rootDir>/src/useCases/index.ts",
-  "<rootDir>/src/middleware.ts",
-  "locales/index.ts",
-  "config.ts",
-  "configs.ts",
-  "style.ts",
-  "styles.ts",
-  "type.ts",
-  "types.ts",
-];
+const exclusions = ["<rootDir>/src/pages"];
 
 const inclusions = ["<rootDir>/src/**/*.{js,jsx,ts,tsx}"];
 

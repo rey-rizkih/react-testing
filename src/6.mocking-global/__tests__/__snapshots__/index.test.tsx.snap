@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mocking todos list 1`] = `
+<div>
+  <img
+    alt="image"
+    data-testid="mock-next-image"
+    src="https://placehold.co/600x400"
+  />
+</div>
+`;
