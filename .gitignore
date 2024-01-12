@@ -41,7 +41,3 @@ bun.lockb
 
 # yarn
 yarn.lock
-
-# new relics
-newrelic.js
-newrelic_agent*
